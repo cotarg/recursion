@@ -20,8 +20,8 @@ def pal(s)
 	# BC '' == length of 0
   return true if (s.length == 1 || s.length == 0)
    
-  if string[0] == string[-1]
-    palindrome(string[1..-2])
+  if s[0] == s[-1]
+    palindrome(s[1..-2])
   end
 end
 
